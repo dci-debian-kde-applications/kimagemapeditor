@@ -1,0 +1,45 @@
+Source: kimagemapeditor
+Section: web
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <sune@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           Eshat Cakar <info@eshat.de>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               extra-cmake-modules,
+               libkf5config-dev,
+               libkf5configwidgets-dev,
+               libkf5coreaddons-dev,
+               libkf5crash-dev,
+               libkf5dbusaddons-dev,
+               libkf5doctools-dev,
+               libkf5guiaddons-dev,
+               libkf5khtml-dev,
+               libkf5parts-dev,
+               libkf5i18n-dev,
+               libkf5widgetsaddons-dev,
+               libkf5xmlgui-dev,
+               libkf5kdelibs4support-dev,
+               libboost-dev,
+               libtidy-dev,
+               libxslt-dev,
+               qtbase5-dev,
+               pkg-kde-tools (>= 0.12),
+               zlib1g-dev
+Standards-Version: 3.9.8
+Homepage: http://www.kde.org/
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kimagemapeditor.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kimagemapeditor.git
+
+Package: kimagemapeditor
+Architecture: any
+Section: editors
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: HTML image map editor
+ KImageMapEditor is a tool that allows you to edit image maps in HTML
+ files. As well as providing a standalone application, KImageMapEditor
+ makes itself available as a KPart for embedding into larger applications.
+ .
+ This package is part of KDE web development module.
