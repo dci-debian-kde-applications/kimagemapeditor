@@ -1,6 +1,7 @@
-Name: kdewebdev
+Name: kimagemapeditor
+Changelog: https://cgit.kde.org/kimagemapeditor.git/log
 Contact: kde-devel@kde.org
 Donation: https://www.kde.org/community/donations/index.php
-Repository: svn://anonsvn.kde.org/home/kde/trunk/KDE/kdewebdev
-Repository-Browse: https://websvn.kde.org/trunk/KDE/kdewebdev/
+Repository: https://anongit.kde.org/kimagemapeditor.git
+Repository-Browse: https://cgit.kde.org/kimagemapeditor.git
 Security-Contact: security@kde.org
