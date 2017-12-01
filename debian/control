@@ -33,6 +33,8 @@ Package: kimagemapeditor
 Architecture: any
 Section: editors
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: HTML image map editor
  KImageMapEditor is a tool that allows you to edit image maps in HTML
  files. As well as providing a standalone application, KImageMapEditor
