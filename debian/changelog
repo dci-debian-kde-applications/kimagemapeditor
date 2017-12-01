@@ -1,7 +1,9 @@
-kimagemapeditor (4:17.11.80-0r1) UNRELEASED; urgency=medium
+kimagemapeditor (4:17.11.80-1) experimental; urgency=medium
+
+  * Team upload.
 
   [ Scarlett Clark ]
   [ Pino Toscano ]
-  * Initial packaging, kf5 port and split form kdewebdev
+  * Initial packaging, kf5 port and split from kdewebdev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 Nov 2017 11:18:12 +0100
+ -- Pino Toscano <pino@debian.org>  Fri, 01 Dec 2017 08:13:21 +0100
