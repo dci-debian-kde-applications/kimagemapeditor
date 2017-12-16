@@ -3,6 +3,7 @@ kimagemapeditor (4:17.12.0-0r1) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * New upstream release.
   * Switch watch file to stable releases.
+  * Bump Standards-Version to 4.1.2, no changes required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Dec 2017 06:48:28 +0100
 
