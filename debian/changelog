@@ -1,5 +1,9 @@
-kimagemapeditor (4:17.08.3-1ubuntu1) UNRELEASED; urgency=medium
+kimagemapeditor (4:17.12.0-0neon) xenial; urgency=medium
 
+  [ Scarlett Clark ]
   * Initial packaging, kf5 port and split form kdewebdev
 
- -- Scarlett Clark <sgclark@kde.org>  Thu, 16 Nov 2017 11:18:12 +0100
+  [ Neon CI ]
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 19 Dec 2017 14:47:22 +0000
